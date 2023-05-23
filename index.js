@@ -1,1 +1,1 @@
-f=m=>[[u="Year",31536e6],[u="Month",2592e6],[u="Day",864e5],[u="Hour",36e5],[u="Minute",6e4],[u="Second",1e3]].reduce((r,[u,t])=>(v=m/t|0,m%=t,v?r+`${v} ${u}${v-1?"s, ":","}`:r),"").trim();module.exports=f;
+f=m=>[[u="Years ",31536e6],[u="Months ",2592e6],[u="Days ",864e5],[u="Hours ",36e5],[u="Minutes ",6e4],[u="Seconds",1e3]].reduce((r,[u,t])=>(v=m/t|0,m%=t,v?r+`${v} ${u}`:r),"").trim();module.exports=f;
