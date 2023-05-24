@@ -1,0 +1,27 @@
+{
+  "name": "timecraft",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+   "pretty",
+        "prettify",
+        "human",
+        "humanize",
+        "humanized",
+        "readable",
+        "time",
+        "ms",
+        "milliseconds",
+        "duration",
+        "period",
+        "range",
+        "text",
+        "string",
+        "number",
+        "hrtime"]
+}
